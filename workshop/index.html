@@ -1,34 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Academia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academia</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<a href="#"  class="logo">Academia</a>
-			<ul>
-				<li>Modules</li>
-				<li>Lectures</li>
-				<li>Guides</li>
-				<li>Updates</li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<div>
-			<section>
-				
-			</section>
-		</div>
-		<aside>
-			
-		</aside>
-	</main>
-	<footer>
-		
-	</footer>
+
+  <header>
+    <h2 class="logo">Academia</h2>
+    <nav>
+      <a href="#modules">Modules</a>
+      <a href="#guides">Study guides</a>
+      <a href="#tutorials">Tutorials</a>
+      <a href="#announcements">Announcements</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <main>
+      <h1>Learn at your own pace</h1>
+      <p>Module notes, study guides, tutorials and academic updates, organised in one place.</p>
+
+      <!-- modules -->
+      <section id="modules">
+        <h2>Modules</h2>
+
+        <div class="card">
+          <div class="placeholder">Image</div>
+          <h3>CS101: Introduction to Programming</h3>
+          <p>Variables, control flow, functions and debugging, with a small project every two weeks.</p>
+          <p>12 weeks | Beginner | Python</p>
+          <a class="button" href="#modules">View syllabus</a>
+        </div>
+
+        <div class="card">
+          <div class="placeholder">Image</div>
+          <h3>MATH201: Calculus II</h3>
+          <p>Integration techniques, sequences and series, with weekly problem sets.</p>
+          <a class="button" href="#modules">View syllabus</a>
+        </div>
+
+        <div class="card">
+          <div class="placeholder">Image</div>
+          <h3>BIO110: Cell Biology</h3>
+          <p>Cell structure, metabolism and genetics, with lab report templates.</p>
+          <a class="button" href="#modules">View syllabus</a>
+        </div>
+
+        <div class="card">
+          <div class="placeholder">Image</div>
+          <h3>ENG150: Academic Writing</h3>
+          <p>Plan, draft and cite a research essay with feedback checkpoints.</p>
+          <a class="button" href="#modules">View syllabus</a>
+        </div>
+      </section>
+
+      <section id="guides">
+        <h2>Study guides</h2>
+
+        <h3>How to prepare for exams</h3>
+        <ol>
+          <li>Collect lecture notes and past papers.</li>
+          <li>Split the syllabus into daily topics.</li>
+          <li>Study in 40-minute blocks with short breaks.</li>
+          <li>Test yourself without notes.</li>
+          <li>Review mistakes the day before.</li>
+        </ol>
+
+        <h3>Downloads</h3>
+        <ul>
+          <li><a href="#guides">Python cheat sheet (PDF)</a></li>
+          <li><a href="#guides">Integration formulas (PDF)</a></li>
+          <li><a href="#guides">Lab report template (DOCX)</a></li>
+          <li><a href="#guides">Citation quick guide (PDF)</a></li>
+        </ul>
+      </section>
+
+      <section id="tutorials">
+        <h2>Tutorials</h2>
+
+        <div class="card">
+          <div class="placeholder">Image</div>
+          <p>Figure 1.</p>
+        </div>
+
+        <div class="card">
+          <h3>Video tutorial</h3>
+          <div class="placeholder">Video</div>
+          <p>A short walkthrough will appear here.</p>
+        </div>
+
+        <div class="card">
+          <h3>Lecture recap audio</h3>
+          <audio controls>
+            <source src="recap.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          <p>Each episode summarises one week of lectures.</p>
+        </div>
+      </section>
+    </main>
+
+    <aside id="announcements">
+      <h2>Announcements</h2>
+      <ul>
+        <li><b>Library hours extended</b><br>Open until midnight during exam weeks.</li>
+        <li><b>New lab schedule</b><br>BIO110 labs move to Room B204.</li>
+        <li><b>Tutor sign-ups open</b><br>Book a free 30-minute slot.</li>
+      </ul>
+
+      <h2>Deadlines</h2>
+      <ul>
+        <li><b>Dec 2:</b> CS101 Project 1</li>
+        <li><b>Dec 5:</b> ENG150 Project 2</li>
+        <li><b>Dec 9:</b> MATH201 Project 3</li>
+      </ul>
+
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="#modules">Courses</a></li>
+        <li><a href="#guides">Past papers</a></li>
+        <li><a href="#support">Contact tutors</a></li>
+      </ul>
+    </aside>
+
+  </div>
+
+  <footer id="support">
+    <h2>Academia</h2>
+    <p>A simple learning resource hub for students.</p>
+    <p>Student Help Desk, Room 101<br>
+    Mon to Fri, 9:00 to 5:00<br>
+    <a href="mailto:support@academia.example">support@academia.example</a></p>
+    <p>&copy; 2026 Academia</p>
+  </footer>
+
 </body>
 </html>
